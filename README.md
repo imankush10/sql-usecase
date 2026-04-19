@@ -94,10 +94,3 @@ This helps understand which categories drove revenue most recently.
 
 - The dataset uses `CURRENT_DATE` for expiry and transaction timing, so results will vary depending on the day you run the script.
 - If you re-run the script, consider uncommenting the `DROP TABLE IF EXISTS ...` statements at the top to reset the schema cleanly.
-
-## Suggested Extensions
-
-- Add indexes (e.g., on `sales_transactions(product_id, transaction_date)`) for performance realism
-- Add customers and store locations
-- Add profit analysis (cost vs sale price) and margin by category
-- Add replenishment logic (reorder thresholds based on sales velocity)
